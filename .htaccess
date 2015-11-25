@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+# Main rewrite rule for our search engine friendly URLs
+RewriteRule ^(chat)($|/) - [L]
+RewriteCond %{REQUEST_URI} !^/cgi-bin/.*
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ index.php
+
