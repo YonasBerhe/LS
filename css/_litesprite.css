@@ -1,0 +1,547 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(../fonts/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(../fonts/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(../fonts/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*
+
+litesprite green : 447a2d 
+light green : b6d773
+
+*/
+
+
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 100;
+src: local('Lato Hairline'), local('Lato-Hairline'), url('../fonts/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+src: local('Lato Light'), local('Lato-Light'), url('../fonts/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+src: local('Lato Regular'), local('Lato-Regular'), url('../fonts/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato';
+font-style: italic;
+font-weight: 700;
+src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url('../fonts/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
+} 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
+e, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12pt;
+	
+	vertical-align: top;
+	}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	font-family: "Lato";
+	
+}
+
+a {
+    color: #447a2d;
+}
+
+a:hover {
+    color: #666;
+}
+
+form {
+	margin: auto;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+	margin-top: 40px;
+	z-index: 10;
+	position: relative;
+	height: 140px;
+	border-bottom: 1px solid #ccc;
+	
+}
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+#header ul {
+	clear:left;
+	float:left;
+	width:100%;
+	list-style:none;
+	margin:10px 0 0 0;
+	padding:0;
+}
+#header ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#header ul li a {
+	display:block;
+	float:left;
+	margin:0 0 0 1px;
+	padding:3px 10px;
+	text-align:center;
+	background:#eee;
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	left:15px;
+	line-height:1.3em;
+}
+#header ul li a:hover {
+	background:#369;
+	color:#fff;
+}
+#header ul li a.active,
+#header ul li a.active:hover {
+	color:#fff;
+	background:#000;
+	font-weight:bold;
+}
+#header ul li a span {
+	display:block;
+}
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 15px !important;
+	text-align:right;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	height: 100%;			/* width of whole page */
+	/*overflow:hidden;*/	/* This chops off any overhanging divs */
+	margin-bottom: 50px; /* this spaces the page for the footer */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding: 0px;
+	/*overflow:hidden;*/
+
+}
+/* Full page settings */
+.fullpage {
+	background:#fff;		/* page background colour */
+	padding: 20px 0px;
+
+}
+.fullpage .col1 {
+	width:96%;			/* page width minus left and right padding */
+	left:2%;			/* page left padding */
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	height:40px;
+	position:fixed;
+	background: #eee;
+	bottom: 0;
+	left: 	0;
+	border-top:1px solid #ccc;
+}
+#footer p {
+	font-size: 10pt;
+	padding-bottom:5px;
+	margin:0;
+}
+
+/* REPORTING */
+
+.reporting {
+	margin: 20px;
+}
+
+.reporting table {
+	border: 1px solid #ccc;
+	border-radius: 4px 4px 0px 0px;
+	margin: auto;
+}
+
+.reporting .titlerow {
+	background: #fafafa;
+	color: #447a2d;
+	font-size: 16pt;
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 0px 0px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.reporting .titlenote a{
+	color: #666;
+	display: inline-block;
+	padding-top: 6px;
+	font-size: 10pt;
+	font-weight: normal;
+	float: right;
+}
+.smalltitle {
+	font-size: 10pt;
+}
+.smalltext td {
+	font-size: 10pt;
+	white-space: nowrap;
+}
+.reporting th {
+	padding: 4px;
+	background-color: #ddd;
+}
+
+.reporting td {
+	padding: 4px;
+}
+.reporting tr:nth-child(even) td{
+    background-color: #eee;
+    border: 1px solid #eee;
+}
+
+.reporting tr:nth-child(odd) td{
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.reporting h1 {
+	font-weight: 200;
+	font-size: 14pt;
+	padding: 10px;
+	background: #ddd;
+}
+
+.reporting a {
+	text-decoration: none;
+}
+
+.reporting a:hover {
+	text-decoration: none;
+	color: #b6d773;
+}
+
+.reporttotal td{
+	font-weight: 700;
+	background: #ccc;
+}
+
+.reportlist {
+	width: 1024px;
+	margin: auto;
+	color: #666;
+	text-align: left;
+	padding: 10px;
+}
+
+.reportlegend  {
+	margin: auto;
+	margin-top: 10px;
+	color: #555;
+}
+
+.reportlegend table {
+	border: 1px solid #ccc;
+	border-radius: 4px 4px 0px 0px;
+	margin: auto;
+}
+
+.reportlegend th {
+	padding: 4px;
+	background-color: #ddd;
+}
+
+.reportlegend td {
+	padding: 4px;
+}
+.reportlegend tr:nth-child(even) td{
+    background-color: #eee;
+    border: 1px solid #eee;
+}
+
+.reportlegend tr:nth-child(odd) td{
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.reportlist p {
+	padding: 	6px 20px;
+}
+
+.delpos {
+	color: green;
+}
+
+.delneg {
+	color: darkred;
+}
+
+
+/* FORMATTING */
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+
+.title {
+	width: 1024px;
+	margin: auto;
+	display: table; 
+	height: 100px; 
+	/*overflow: hidden;*/
+	padding-top: 20px;
+}
+
+.titletext {
+	display: inline-block;
+	color: #447a2d;
+	display: table-cell; 
+	vertical-align: middle;
+	text-align: left;	
+	font-size: 20pt;
+	width: 884px;
+	padding: 20px;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
+	display: table-cell; 
+}
+
+.testdata {
+color: red;
+padding: 20px;
+}
+.error {
+ color: darkred;
+}
+.fielderror {
+    background: #db9081;
+    border: 1px solid red;
+}
+
+#header_user {
+	position: relative;
+	display: inline-block;
+    float: left;	
+    text-align: left;
+	height: 30px;
+	line-height: 16pt;
+	font-size: 12pt;
+	padding: 4px 6px;
+}
+
+#header_public {
+	position: relative;
+	display: inline-block;
+    float: right;	
+    text-align: right;
+	height: 30px;
+	line-height: 16pt;
+	font-size: 12pt;
+	padding: 4px 6px;
+}
+
+.header_public_ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav  {
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.nav:hover  {
+	color: #447a2d;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.navfocus  {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navfocus:hover  {
+	color: #447a2d;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.header_public_ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.header_public_li:after { 
+	content: " / ";
+	padding-left: 5px;
+	color: #7c8f5b;
+}
+
+.header_public_li_last { 
+	content: "";
+	padding-left: 5px;
+}
+#header_public a{
+	font-weight: 300;
+}
+
+.topbar {
+	z-index: 999;
+	position:fixed;
+	width: 100%;
+	min-width: 600px;
+	height: 30px;
+	background: #b6d773;
+	border-bottom: 1px solid #447a2d;
+    -moz-box-shadow: 	0px 8px -8px #aaa;
+    -webkit-box-shadow: 0px 8px -8px #aaa;
+    box-shadow: 0px 5px 5px #aaa;
+	display: block;
+	line-height: 10px;
+	/*overflow: hidden;*/
+}
+
+.actionbutton {
+	display: inline-block;  
+	margin: auto; 
+	width: 80px; 
+	height: 20px; 
+	border: 1px solid #666; 
+	background: #b6d773; 
+	color: #fff; 
+	text-align: center; 
+	cursor: pointer; 
+	font-size: 12pt; 
+	line-height: 125%;
+	border-radius: 5px;
+}
+.actionbutton:hover {
+	color: #447a2d;
+	}
+
+.pagetitle {
+	color: #333;
+	margin: auto;
+	max-width: 1024px;
+	text-align: left;
+}
+
+.pagetitle h1 {
+	font-size: 18pt;
+	font-weight: 400;
+	background: #b6d773;
+	padding: 4px 20px 4px 10px;
+	display: inline-block;
+	border-radius: 2px  18px 2px 18px;
+}
+
+.backlink {
+	width: 1024px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+.backlink  a{
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	line-height: 20pt;
+	font-size: 10pt;
+	text-decoration: none;
+}
+
+.color-sq {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	display: inline-block;
+}
