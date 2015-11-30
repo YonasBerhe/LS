@@ -34,7 +34,7 @@ if (0==1) {
                 //No Page Found
                 require_once('pages/home.php');
 
-                //require_once('pages/404.php');  
+                //require_once('pages/404.php');
             }
         }
     } else {
@@ -46,7 +46,7 @@ if (0==1) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Litesprite</title>
     <meta name="description" content="Litesprite.com">
@@ -55,7 +55,9 @@ if (0==1) {
 	<link rel="shortcut icon" href="/favicon.ico">
     <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <?= $additionalJS; ?>
-    <link href="/css/litesprite.css" rel="stylesheet" media="screen"/>   
+    <link rel="stylesheet" href="/css/reset.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="/css/style.css" rel="stylesheet" media="screen">
+    <!-- <link href="/css/litesprite.css" rel="stylesheet" media="screen"/>    -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <style type="text/css">
     <?= $auxcss; ?>
@@ -63,8 +65,8 @@ if (0==1) {
 </head>
 <body>
 
-<?php 
-echo $body; 
+<?php
+echo $body;
 ?>
 
 </body>
