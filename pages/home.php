@@ -6,7 +6,7 @@ $additionalCSS = <<<EOD
     <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'>
-    <link rel="stylesheet" href="./css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="./css/litesprite.css" rel="stylesheet" media="screen">
 
 EOD;
 
