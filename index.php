@@ -57,7 +57,7 @@ if (0==1) {
     <?= $additionalJS; ?>
     <link rel="stylesheet" href="/css/reset.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="/css/style.css" rel="stylesheet" media="screen">
-    <!-- <link href="/css/litesprite.css" rel="stylesheet" media="screen"/>    -->
+    <link href="/css/litesprite.css" rel="stylesheet" media="screen"/>   
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <style type="text/css">
     <?= $auxcss; ?>
