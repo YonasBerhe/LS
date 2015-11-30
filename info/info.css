@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+/*
+
+litesprite green : 447a2d 
+light green : b6d773
+
+*/
+
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+	margin: 20px;
+    font-family: "Lato";
+}
+
+a {
+    color: #447a2d;
+}
+
+a:hover {
+    color: #666;
+}
+
+table {
+	border: 1px solid #ccc;
+}
+td {
+	padding: 4px;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.header {
+	border-top: 5px solid #447a2d;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0px 0px 8px #eee;
+	-moz-box-shadow: 0px 0px 8px #eee;
+	box-shadow: 0px 0px 8px #eee;
+}
+.title {
+	width: 1024px;
+	margin: auto;
+	display: table; 
+	height: 100px; 
+	overflow: hidden;
+	padding: 10px;
+}
+
+.titletext {
+	display: inline-block;
+	color: #447a2d;
+	display: table-cell; 
+	vertical-align: middle;
+	text-align: left;	
+	font-size: 20pt;
+	width: 884px;
+	padding: 20px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
+	display: table-cell; 
+}
+
+input[type="text"] {
+	width: 95%;
+}
+
+input[type="text"].othertext {
+	width: 400px;
+}
+
+input[type="password"] {
+	width: 60%;
+}
+
+
+input[type="submit"] {
+	width: 100px;
+    margin: 20px;
+	padding:5px 15px; 
+	background:#eee; 
+	border: 1px solid #447a2d;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=submit]:active {
+	background: #b6d773;
+}
+input[type=submit]:hover {
+	border: 1px solid #b6d773;
+}
+select {
+	width: 100px;
+}
+
+input[type=radio] {
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 15px;
+}
+
+input[type=checkbox] {
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 15px;
+}
+
+.testdata {
+color: red;
+padding: 20px;
+}
+.error {
+ color: darkred;
+}
