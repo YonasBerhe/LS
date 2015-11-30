@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 50px;
+  /* bottom = footer height */
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, select:focus, .uneditable-input:focus {
+  border-color: #bd9b60;
+  box-shadow: none;
+  outline: 0 none !important;
+}
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px
+}
+
+.navbar {
+	border: 2px solid;
+  border-bottom-right-radius: 2em;
+	background-color: black;
+  opacity: 0.8;
+
+}
+header {
+  padding: 10px 0;
+	background-color: black;
+  opacity: 0.8;
+  border: 2px solid;
+  border-bottom-right-radius: 2em;
+
+}
+header .logo {
+  max-width: 120px;
+}
+.jumbotron {
+  width: 100%;
+  min-height: 450px;
+  background: url('http://design.bigbangfish.com/wp-content/uploads/wallpaper/sunset/sunset-7-pictures.jpg') center center;
+  background-size: cover;
+  opacity: 1;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 85%);
+  clip-path: url(#poly);
+  overflow: hidden;
+}
+.jumbotron h1 {
+  font-size: 50px;
+}
+.jumbotron h2 {
+  margin: 0;
+}
+#video-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: #000;
+  z-index: -1;
+  /*background-size: cover;*/
+  opacity: 1;
+}
+#black {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: rgba(26, 29, 37, 0.8);
+}
+#main-wrapper {
+  margin-top: 0;
+}
+.main-content {
+  padding-top: 25px;
+}
+.main-content .white-box {
+  padding: 25px;
+  margin: 25px 0;
+  background: #fff;
+	margin-bottom: 18%;
+}
+.main-content ul {
+  list-style: initial;
+  margin-left: 15px;
+}
+.main-content .final-cta {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase
+}
+.form-container {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  margin-top: -100px;
+}
+.form-container div {
+  margin: 20px 0;
+}
+.form-container input, .form-container select {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 3px 0;
+  border-radius: 0px;
+  box-shadow: none;
+  -webkit-appearance: none;
+  color: #000;
+  letter-spacing: 1px
+}
+.form-container option {
+  margin: 0;
+}
+.form-container label {
+  display: none
+}
+.form-container h4 {
+  margin: 0;
+}
+.form-container .placeholder {
+  color: #000 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+select option:first-child {
+  display: none;
+}
+::-webkit-input-placeholder {
+  color: #000 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: Gibson-Light;
+}
+.form-container .btn-primary {
+  background: #00af66;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #000 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
+}
+:-ms-input-placeholder {
+  color: #000 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300
+}
+footer {
+  color: #999;
+  position: absolute;
+  /*background: rgba(26, 29, 37, 1);*/
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 12px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .jumbotron {
+    min-height: 460px;
+    padding: 5px 15px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+  .jumbotron h2 {
+    font-size: 16px;
+  }
+
+}
+/*
+========================================
+*/
+
+.btn-sub {
+	background-color: #5bc0de;
+	border-color: #46b8da;
+
+
+}
+
+.inImage {
+	text-indent: 50px;
+	padding-top: 80px;
+  margin-left: 20px;
+}
+
+.properSize {
+  height: 50%;
+	width: 100%;
+}
+.space {
+	margin-bottom: 100px;
+}
+.footer {
+	height: 10%;
+	width: 100%;
+}
+
+.pagedown1 {
+	border-style: solid;
+	border-radius:
+	height: 30%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10%;
+	background-color: #d2e5ac;
+}
+
+
+.pagedown2 {
+	border-style: solid;
+	border-radius:
+	height: 30%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	height: 400px;
+	background-color: #28451a;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: black;
+}
+
+.chap h1 {
+	font-size: 30px;
+}
+.patDown {
+	padding-bottom: 2%;
+}
+
+
+.centerup {
+  margin: 3%;
+}
+.centerup h1 {
+  font-size: 12px;
+}
+
+
+.jumbotron2 {
+  width: 100%;
+	padding-top: 8%;
+  padding-bottom: 16%;
+  background: url('http://3.bp.blogspot.com/-FE1UJPEDgzc/TfStWfnwDsI/AAAAAAAAAGY/aL-krxmbs8U/s1600/speaking_of_joy_by_marielliott.jpeg') center center;
+  background-size: cover;
+  opacity: 1;
+  display: table;
+  position: relative;
+  border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  -webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 85%);
+  clip-path: url(#poly);
+  overflow: hidden;
+}
+#imgDown {
+  background: transparent;
+  margin-left: -100px;
+  margin-bottom: -13px;
+}
+
+.jumbotron2 h2 {
+  margin: 0;
+}
+
+.navbar-brand>img {
+  height: 40px;
+  margin-top: -8px;
+}
