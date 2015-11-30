@@ -1,8 +1,9 @@
 <?php
 
 $additionalCSS = <<<EOD
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="./css/reset.css" rel="stylesheet" media="screen">
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
     <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'>
@@ -12,7 +13,6 @@ EOD;
 
 $additionalJS = <<<EOD
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
   <script type='text/javascript' src="./js/init.js"></script>
   <script type='text/javascript' src="./js/litesprite.js"></script>
