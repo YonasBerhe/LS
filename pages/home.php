@@ -5,14 +5,12 @@ $additionalCSS = <<<EOD
     <link rel="stylesheet" href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="./css/reset.css" rel="stylesheet" media="screen">
     <link rel='stylesheet prefetch' href='./css/animate.css'>
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'>
     <link rel="stylesheet" href="./css/litesprite.css" rel="stylesheet" media="screen">
 
 EOD;
 
 $additionalJS = <<<EOD
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
   <script type='text/javascript' src="./js/init.js"></script>
   <script type='text/javascript' src="./js/litesprite.js"></script>
@@ -60,10 +58,6 @@ $body = <<<EOD
 
 
   <div class="jumbotron">
-
-    <div id="black">
-
-    </div>
     <!--<video autoplay muted loop id="video-bg">
      <source src="http://www.istockphoto.com/video_passthrough/17839538/153/17839538.mp4" type="video/mp4">
 </video> -->
@@ -74,7 +68,7 @@ $body = <<<EOD
         <img id="imgDown" src="./images/litespritepara.png"/>
 
 
-          <h3>By combining proven medical treatments with the joy of games,
+          <h3 id="colorText">By combining proven medical treatments with the joy of games,
             <br class="visible-lg " /> we build experiences that help people improve their health.</h3>
           <hr style="width:25%;text-align:left;margin:30px 0; border:2.5px solid #fff;" />
         </div>
@@ -82,31 +76,32 @@ $body = <<<EOD
     </div>
   </div>
   <div class="col-md-8">
-    <h3 class="subtitle">
-      <h3>Here is a sneak peek at our first game.
-        <br/>Sinasprite - it helps you manage stress.</h3>
-    </h3>
   </div>
 
 
+  <div class="pagedown3">
+    <div class="container" id="press">
+      <section class="chap">
+        <br/>
+        <br/>
+      </section>
+      <div class="row">
+        <div class="col-sm-6 patDown">
+            <h3 class="subtitle">
+              <h3 id="colorUp">Here is a sneak peek at our first game.
+                <br/>Sinasprite - it helps you manage stress.</h3>
+            </h3>
 
-
-
-  <div class="container" id="main-wrapper">
-    <div class="col-md-7 main-content">
-      <section id="sinasprite" class="bg-1" data-speed="6" data-type="background">
-        <!-- Begin trailer content -->
-        <div class="container topedge">
-          <div class="text-center videorow">
-            <div class="embed-responsive embed-responsive-16by9 properSize">
-              <iframe width="280" height="158" src="https://www.youtube.com/embed/2FDpm2GjZsQ" frameborder="0" allowfullscreen></iframe>
-            </div>
+          </div>
+        <div class="col-sm-6">
+          <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="280" height="158" src="https://www.youtube.com/embed/2FDpm2GjZsQ" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
-      </section>
-      <!-- /. End White Box 0-->
+      </div>
     </div>
   </div>
+
 
 
   <div class="pagedown1">
@@ -115,6 +110,7 @@ $body = <<<EOD
         <br/>
         <br/>
         <h1>Press</h1>
+        <hr>
       </section>
       <div class="row">
         <div class="col-sm-6 patDown">
@@ -133,8 +129,7 @@ $body = <<<EOD
   </div>
 
   <div class="jumbotron2">
-    <div id="black">
-    </div>
+
     <!--<video autoplay muted loop id="video-bg">
      <source src="http://www.istockphoto.com/video_passthrough/17839538/153/17839538.mp4" type="video/mp4">
   </video> -->
@@ -142,8 +137,8 @@ $body = <<<EOD
 
 
   <div class="row col-lg-12">
-  <div class= "container">
-        <div class="col-md-3 col-md-4 text-center centerup ">
+  <div class= "container bringCenter">
+        <div class="col-md-3 col-md-4 text-center center-Up">
               <h1>The Law of Startups Podcast Interview</h1>
               <hr>
               <audio controls>
@@ -153,7 +148,7 @@ $body = <<<EOD
       </div>
 
 
-              <div class="col-md-3 col-md-4 text-center centerup">
+              <div class="col-md-3 col-md-4 text-center center-Up">
                   <h1>Empowered Patient Radio Interview ft. Karen Jagoda</h1>
                   <hr>
                   <audio controls>
@@ -162,7 +157,7 @@ $body = <<<EOD
                   </audio>
               </div>
 
-          <div class="col-md-3 col-md-4 text-center centerup ">
+          <div class="col-md-3 col-md-4 text-center center-Up ">
               <h1>NPR KUOW 94.9 Radio Interview by Bill Radke</h1>
               <hr>
               <audio controls>
