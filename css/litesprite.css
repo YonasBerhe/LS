@@ -33,8 +33,9 @@ p {
   letter-spacing: 1px
 }
 .navbar {
-  border-bottom-right-radius: 2em;
+  border-bottom-right-radius: 1.5em;
   background-color: white;
+  border-bottom: 4px solid rgba(54,54,54,.2);
 }
 header {
   padding: 10px 0;
@@ -226,6 +227,9 @@ footer {
 ========================================
 */
 
+.patDown {
+  padding-bottom: 2%;
+}
 .btn-sub {
   background-color: #5bc0de;
   border-color: #46b8da;
@@ -266,8 +270,6 @@ footer {
   height: 400px;
   background-color: #28451a;
 }
-
-
 .pagedown3 {
   border-style: solid;
   border-radius: height: 30%;
@@ -292,29 +294,26 @@ footer {
   /*margin: 30px 0;*/
   border: 2.5px solid #fff;
 }
-.patDown {
-  padding-bottom: 2%;
-}
 .center-Up {
   margin-left: 4%;
   margin-right: 4%;
 }
 .center-Up h1 {
   font-size: 12px;
-  margin-top: 50%;
+  margin-top: 30px;
   color: #28451a;
+  text-align: left;
 }
 .marginDown {
   margin-top: 0.1%;
 }
-.bringCenter {}
 
 #colorText {
   color: #28451a;
-}
-
-#colorUp{
+  }
+#colorUp {
   color: #28451a;
+  margin-bottom: 10%;
 }
 
 .jumbotron2 {
@@ -333,19 +332,42 @@ footer {
   /*-webkit-clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 85%);*/
   overflow: hidden;
   margin-bottom: 60px;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
+
 #imgDown {
-  background: transparent;
-  margin-left: -100px;
   margin-bottom: -13px;
+  padding-top: 20%;
+  padding-bottom: 50px;
+  display: block;
+  margin: 0 auto;
+
 }
+
+
+
 .jumbotron2 h2 {
   margin: 0;
 }
+
 .navbar-brand>img {
   height: 40px;
   margin-top: -8px;
 }
 .videorow {
   margin-left: -1.6%;
+}
+.pullUp {
+  margin-top: -8px;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.hitheir {
+  color: #28451a;
 }

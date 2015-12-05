@@ -25,7 +25,7 @@
 
 /*
 
-litesprite green : 447a2d 
+litesprite green : 447a2d
 light green : b6d773
 
 */
@@ -60,7 +60,7 @@ font-family: 'Lato';
 font-style: italic;
 font-weight: 700;
 src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url('../fonts/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
-} 
+}
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 e, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -68,7 +68,7 @@ e, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s
 	padding: 0;
 	border: 0;
 	font-size: 12pt;
-	
+
 	vertical-align: top;
 	}
 
@@ -83,7 +83,7 @@ body {
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	font-family: "Lato";
-	
+
 }
 
 a {
@@ -108,7 +108,7 @@ form {
 	position: relative;
 	height: 140px;
 	border-bottom: 1px solid #ccc;
-	
+
 }
 #header p,
 #header h1,
@@ -361,8 +361,8 @@ form {
 .title {
 	width: 1024px;
 	margin: auto;
-	display: table; 
-	height: 100px; 
+	display: table;
+	height: 100px;
 	/*overflow: hidden;*/
 	padding-top: 20px;
 }
@@ -370,9 +370,9 @@ form {
 .titletext {
 	display: inline-block;
 	color: #447a2d;
-	display: table-cell; 
+	display: table-cell;
 	vertical-align: middle;
-	text-align: left;	
+	text-align: left;
 	font-size: 20pt;
 	width: 884px;
 	padding: 20px;
@@ -386,7 +386,7 @@ form {
 .logo {
 	height: 100px;
 	width: 100px;
-	display: table-cell; 
+	display: table-cell;
 }
 
 .testdata {
@@ -404,7 +404,7 @@ padding: 20px;
 #header_user {
 	position: relative;
 	display: inline-block;
-    float: left;	
+    float: left;
     text-align: left;
 	height: 30px;
 	line-height: 16pt;
@@ -415,7 +415,7 @@ padding: 20px;
 #header_public {
 	position: relative;
 	display: inline-block;
-    float: right;	
+    float: right;
     text-align: right;
 	height: 30px;
 	line-height: 16pt;
@@ -459,13 +459,13 @@ padding: 20px;
 	display: inline-block;
 }
 
-.header_public_li:after { 
+.header_public_li:after {
 	content: " / ";
 	padding-left: 5px;
 	color: #7c8f5b;
 }
 
-.header_public_li_last { 
+.header_public_li_last {
 	content: "";
 	padding-left: 5px;
 }
@@ -490,16 +490,16 @@ padding: 20px;
 }
 
 .actionbutton {
-	display: inline-block;  
-	margin: auto; 
-	width: 80px; 
-	height: 20px; 
-	border: 1px solid #666; 
-	background: #b6d773; 
-	color: #fff; 
-	text-align: center; 
-	cursor: pointer; 
-	font-size: 12pt; 
+	display: inline-block;
+	margin: auto;
+	width: 80px;
+	height: 20px;
+	border: 1px solid #666;
+	background: #b6d773;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12pt;
 	line-height: 125%;
 	border-radius: 5px;
 }
