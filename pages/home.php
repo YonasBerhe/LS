@@ -12,9 +12,8 @@ EOD;
 $additionalJS = <<<EOD
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-  <script src="./js/scroll.js" type="text/javascript"></script>
   <script src="node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
-  <script type='text/javascript' src="./js/init.js"></script>
+  <script src="./js/scroll.js" type="text/javascript"></script>
   <script type='text/javascript' src="./js/litesprite.js"></script>
 
 
@@ -217,16 +216,12 @@ $body = <<<EOD
 
         </div>
       </div>
+      <script type='text/javascript' src="./js/init.js"></script>
     </footer>
 
   </div>
 EOD;
 
-$additionalJS = <<<EOD
-  <script src="node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
-  <script type='text/javascript' src="./js/init.js"></script>
-
-EOD;
 
 
 ?>

@@ -35,7 +35,7 @@ p {
 .navbar {
   border-bottom-right-radius: 1.5em;
   background-color: white;
-  border-bottom: 4px solid rgba(54,54,54,.2);
+  border-bottom: 5px solid rgba(54,54,54,.2);
 }
 header {
   padding: 10px 0;
