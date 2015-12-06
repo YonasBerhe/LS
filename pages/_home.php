@@ -19,7 +19,7 @@ EOD;
 $body = <<<EOD
 <!-- Wrap all page content here -->
 <div id="wrap">
-	<!-- position fix for Home Nav-->   
+	<!-- position fix for Home Nav-->
 	<div id="home"></div>
 
 <!-- Begin Header Section -->
@@ -58,14 +58,14 @@ $body = <<<EOD
 window._fbq = window._fbq || [];
 window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
 </script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6024454422256&amp;cd[value]=0.01&amp;cd[currency]=USD&amp;noscript=1" /></noscript>        
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6024454422256&amp;cd[value]=0.01&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
     </section>
 </header>
 <!-- End Header Section -->
 
 <!-- Sticky navbar -->
 <div id="nav" class="navbar navbar-custom navbar-inverse navbar-static-top" >
-    <a id="navlogo" class="navbar-brand unstuck" rel="home" href="#" title="Litesprite"><img style="max-height:30px; " src="./images/litesprite.png"></a>  
+    <a id="navlogo" class="navbar-brand unstuck" rel="home" href="#" title="Litesprite"><img style="max-height:30px; " src="./images/litesprite.png"></a>
     <div class="navbar-inner">
         <div class="container">
             <div class="navbar-header">
@@ -92,26 +92,26 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
 </div><!--/.navbar -->
 <!-- / Sticky navbar -->
 
-<!-- position fix for Sinasprite Nav--> 
-<section id="sinasprite" class="bg-1" data-speed="6" data-type="background">  
+<!-- position fix for Sinasprite Nav-->
+<section id="sinasprite" class="bg-1" data-speed="6" data-type="background">
    <div class="section-header text-center">
         <h1>Sinasprite</h1>
     </div>
-    <!-- Begin trailer content -->  
+    <!-- Begin trailer content -->
     <div class="container topedge">
         <div class="text-center videorow">
-            <h1>Here is a sneak peek at our first game. <br/>Sinasprite - it helps you manage stress.</h1> 
-            <div class="embed-responsive embed-responsive-16by9">   
+            <h1>Here is a sneak peek at our first game. <br/>Sinasprite - it helps you manage stress.</h1>
+            <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" width="560" height="315" src="//www.youtube.com/embed/2FDpm2GjZsQ?rel=0" frameborder="0" allowfullscreen class="video"></iframe>
             </div>
         </div>
     </div>
 </section>
-<!-- End Sinasprite content -->  
+<!-- End Sinasprite content -->
 
-<!-- position fix for Sinasprite Nav--> 
-<section id="action" class="bg-1 altcolor" data-speed="6" data-type="background">  
-    <!-- Begin trailer content -->  
+<!-- position fix for Sinasprite Nav-->
+<section id="action" class="bg-1 altcolor" data-speed="6" data-type="background">
+    <!-- Begin trailer content -->
     <div class="container ">
         <div class="text-center">
             <br>
@@ -125,15 +125,15 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
         </div>
     </div>
 </section>
-<!-- End Sinasprite content --> 
+<!-- End Sinasprite content -->
 
 
-<!-- position fix for press Nav-->  
+<!-- position fix for press Nav-->
 <section id="press">
     <div class="section-header text-center">
         <h1>Press</h1>
     </div>
-    <!-- Begin news content -->  
+    <!-- Begin news content -->
     <div class="container topedge">
 
         <div class="row text-center videorow">
@@ -159,14 +159,14 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
             Your browser does not support the audio element.
             </audio>
         </div>
-        
+
 
         <div class="row text-center videorow embed-responsive embed-responsive-16by9">
             <h1>NBC King 5 Tech Talk features Litesprite</h1>
             <iframe class="embed-responsive-item" width="560" height="315" src="//www.youtube.com/embed/tJ29lb-ZXdA?rel=0" frameborder="0" allowfullscreen class="video"></iframe>
         </div>
         <div class="row text-center videorow embed-responsive embed-responsive-16by9">
-            <h1>Kauffman Foundation</h1>    
+            <h1>Kauffman Foundation</h1>
             <iframe class="embed-responsive-item" width="560" height="315" src="//www.youtube.com/embed/qo1LCNqcgBU?rel=0" frameborder="0" allowfullscreen class="video"></iframe>
         </div>
     <div class="row">
@@ -176,7 +176,7 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.thelawofstartups.com/podcast/2015/7/30/episode-22-swatee-surve-ceo-and-founder-of-litesprite" target="_blank"><img class="logopix img-responsive" src="./images/lawofstartups.png" alt="The Law of Starups Podcast"/>July 30, 2015</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://425business.com/calling-all-startups-its-time-to-acquire-customers/" target="_blank"><img class="logopix img-responsive" src="./images/425.png" alt="425 Business"/>July 15, 2015</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.bizjournals.com/seattle/news/2015/03/20/founder-s-answer-to-tech-world-stress-play-a-game.html?page=all" target="_blank"><img class="logopix img-responsive" src="./images/psbj.png" alt="Puget Sound Business Journal"/>March 20, 2015</a></div>
-    
+
     </div>
     <div class="col-sm-offset-2 col-sm-10">
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.ibtimes.com/tinnitus-help-3d-printed-tissue-anxiety-relief-highlight-digital-health-startups-sxsw-1850358" target="_blank"><img class="logopix img-responsive" src="./images/ibt.png" alt="International Business Times"/>March 18, 2015</a></div>
@@ -184,7 +184,7 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.seattlemet.com/news-and-profiles/articles/video-game-therapy-january-2015" target="_blank"><img class="logopix img-responsive" src="./images/seamet.png" alt="Seattle Met Magazine"/>January 5, 2015</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://issuu.com/casualconnect/docs/casualconnectwinter2014" target="_blank"><img class="logopix img-responsive" src="./images/cc.png" alt="Casual Connect December 2014"/>December 2014</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://kuow.org/post/feeling-blue-play-game-socks-fox" target="_blank"><img class="logopix img-responsive" src="./images/kuow.png" alt="KUOW 94.9"/>October 21, 2014</a></div>
-    
+
     </div>
     <div class="col-sm-offset-2 col-sm-10">
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://seriousgamesmarket.blogspot.com/2014/04/serious-games-as-alternative-to.html" target="_blank"><img class="logopix img-responsive" src="./images/sgm.png" alt="Serious Games"/>April 26, 2014</a></div>
@@ -192,8 +192,8 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.geekwire.com/2014/northwest-social-venture-fund" target="_blank"><img class="logopix img-responsive" src="./images/geekwire.png" alt="geekwire"/>February 19, 2014</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.bizjournals.com/portland/blog/sbo/2014/02/instove-lite-sprite-win-fast-pitch.html" target="_blank"><img class="logopix img-responsive" src="./images/bpj.png" alt="geekwire"/>February 19, 2014</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.sustainablebusinessoregon.com/articles/2014/02/fast-pitch-portland-meet-9-startups.html" target="_blank"><img class="logopix img-responsive" src="./images/fastpitch.png" alt="Portland Fast Pitch"/>February 11, 2014</a></div>
-    
-    
+
+
     </div>
     <div class="col-sm-offset-2 col-sm-10">
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.imedicalapps.com/2014/01/design-video-games-health-insights-rwj-foundation-award-winning-litesprite" target="_blank"><img class="logopix img-responsive" src="./images/imedicalapps.png" alt="iMedical Apps"/>January 24, 2014</a></div>
@@ -202,7 +202,7 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.geekwire.com/2013/meet-class-win-reactor-interactive-media-accelerator" target="_blank"><img class="logopix img-responsive" src="./images/geekwire.png" alt="geekwire"/>July 17, 2013</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.medgadget.com/2013/07/behavioral-health-a-big-focus-at-games-for-health-conference.html" target="_blank"><img class="logopix img-responsive" src="./images/medgadget.png" alt="MedGadget"/>July 9, 2013</a></div>
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.women2.com/female-founders-to-watch-seattle-edition" target="_blank"><img class="logopix img-responsive" src="./images/women20.png" alt="Women 2.0"/>April 5, 2013</a></div>
-    
+
     </div>
     <div class="col-sm-offset-2 col-sm-10">
     <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.geekwire.com/2013/litesprite" target="_blank"><img class="logopix img-responsive" src="./images/geekwire.png" alt="geekwire"/>April 10, 2013</a></div>
@@ -230,7 +230,7 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
                 <div class="col-sm-2 col-xs-6 text-center"><a href="http://socialventuresociety.org/2014/02/19/fast-pitch-finals-congrats-instove-litesprite" target="_blank"><img class="logopix img-responsive" src="./images/svs.png" alt="Social Venture Society"/>Winner: Social Venture Society</a></div>
                 <div class="col-sm-2 col-xs-6 text-center"><a href="http://bigc.livestrong.org/#/project/e8b96332-4bc1-5574-5d08-31211af91558" target="_blank"><img class="logopix img-responsive" src="./images/bigc.png" alt="The Big C powered by LiveStrong"/>Finalist: Livestrong Big C Competition</a></div>
                 <div class="col-sm-2 col-xs-6 text-center"><a href="http://exponential.singularityu.org/medicine/medy-awards/" target="_blank"><img class="logopix img-responsive" src="./images/exmed.png" alt="Singularity University/Exponential Medicine"/>Finalist: Singularity University/Exponential Medicine Medy Award</a></div>
-                
+
             </div>
             <div class="col-sm-offset-2 col-sm-10">
                 <div class="col-sm-2 col-xs-6 text-center"><a href="http://www.extremetechchallenge.com" target="_blank"><img class="logopix img-responsive" src="./images/xtc.png" alt="Extreme Tech Challenge"/>Finalist: Extreme Tech Challenge </a></div>
@@ -241,14 +241,14 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
     </div>
     <p>&nbsp;</p>
 </section>
-<!-- End press content -->  
+<!-- End press content -->
 
-<!-- position fix for Contact Nav-->  
+<!-- position fix for Contact Nav-->
 <section id="sectioncontact">
     <div class="section-header text-center">
         <h1>Contact Us</h1>
     </div>
-    <!-- Begin Contact content -->  
+    <!-- Begin Contact content -->
     <div class="container topedge">
 
     <div class="continer">
@@ -267,7 +267,7 @@ window._fbq.push(['track', '6024454422256', {'value':'0.01','currency':'USD'}]);
     </div>
     </div>
 </section>
-<!-- End Contact content -->  
+<!-- End Contact content -->
 
 
 </div><!--/wrap-->

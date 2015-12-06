@@ -265,9 +265,7 @@ footer {
   border-style: solid;
   border-radius: height: 30%;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: -10px;
-  height: 400px;
+  height: 700px;
   background-color: #28451a;
 }
 .pagedown3 {
@@ -370,4 +368,27 @@ footer {
 
 .hitheir {
   color: #28451a;
+}
+
+.touchUp {
+  padding-top: 30%;
+  font-size: 30px;
+}
+
+.touchUp li {
+  padding: 10px;
+}
+
+.touchUp li a {
+  text-decoration: none;
+  color: white;
+}
+
+#owl-demo .item{
+  margin: 2px;
+}
+#owl-demo .item img{
+  display: block;
+  /*width: 30%;*/
+  height: auto;
 }

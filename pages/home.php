@@ -6,6 +6,9 @@ $additionalCSS = <<<EOD
     <link rel="stylesheet" href="./css/reset.css" rel="stylesheet" media="screen">
     <link rel='stylesheet prefetch' href='./css/animate.css'>
     <link rel="stylesheet" href="./css/litesprite.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="./css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="./css/owl.theme.css" rel="stylesheet" media="screen">
+
 
 EOD;
 
@@ -13,7 +16,8 @@ $additionalJS = <<<EOD
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
   <script src="node_modules/smooth-scroll/dist/js/smooth-scroll.js"></script>
-  <script src="./js/scroll.js" type="text/javascript"></script>
+  <script src="./js/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="./js/customowl.js" type="text/javascript"></script>
   <script type='text/javascript' src="./js/litesprite.js"></script>
 
 
@@ -187,39 +191,41 @@ $body = <<<EOD
   </div>
   </div>
   </div>
-
+<section id="contact">
   <div class="pagedown2">
     <div class="container">
-      <h1></h1>
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="touchUp">
+          <li><a href="mailto:socks@litesprite.com" title="socks@litesprite.com">socks@litesprite.com</a></li>
+          <li><a href="tel://1-209-677-7483" title="Litesprite Business Phone number">209.677.7483</a></li>
+          <li><a href="https://twitter.com/Litespritegames" title="Litesprite Games Twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.facebook.com/litesprite" title="Litesprite Facebook" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></p>
+
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8"><
+
+<div id="owl-demo">
+
+
+<div class="item"><a href="http://www.seattletimes.com/business/technology/new-local-hub-examines-health-care-innovation/" target="_blank"><img class="logopix img-responsive" src="./images/seattletimes.png" alt="The Seattle Times"/></div>
+
+<div class="item"><a href="http://venturebeat.com/2015/09/16/litesprite-uses-mobile-games-to-treat-chronic-stress-problems/" target="_blank"><img class="logopix img-responsive" src="./images/venturebeat.png" alt="venturebeat"/></div>
+
+      </div>
     </div>
   </div>
-<br/>
-<br/>
-
-<br/>
-<div id="contact" class="container">
-    <footer>
-      <div class="container">© 2015 Litesprite LLC. All rights reserved.
-        <div class="row">
-          <div class="col-md-4">
-            <ul>
-              <li><a href="mailto:socks@litesprite.com" title="socks@litesprite.com">socks@litesprite.com</a></li>
-              <li><a href="tel://1-209-677-7483" title="Litesprite Business Phone number">209.677.7483</a></li>
-              <li><a href="https://twitter.com/Litespritegames" title="Litesprite Games Twitter" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
-              <li><a href="https://www.facebook.com/litesprite" title="Litesprite Facebook" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></p>
-                <p class="">Copyright &copy; <a href="https://www.litesprite.com">Litesprite.com</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-8"></div>
-
-        </div>
-      </div>
-      <script type='text/javascript' src="./js/init.js"></script>
-    </footer>
-
+  <script type='text/javascript' src="./js/init.js"></script>
+    </div>
   </div>
+  </section>
+
+  <footer>
+  <p class="">Copyright &copy; <a href="https://www.litesprite.com">Litesprite.com</a>
+  </footer>
+
 EOD;
 
 
