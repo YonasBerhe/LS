@@ -29,6 +29,10 @@ EOD;
 $body = <<<EOD
 
 
+<h1>Hell</h1>
+
+
+
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -151,6 +155,38 @@ $body = <<<EOD
   </div>
   </section>
 
+  <div id="owl-demo">
+
+    <div class="item"><a href="http://www.seattletimes.com/business/technology/new-local-hub-examines-health-care-innovation/" target="_blank"><img class="logopix img-responsive" src="./images/seattletimes.png" alt="The Seattle Times"/></a></div>
+    <div class="item"><a href="http://venturebeat.com/2015/09/16/litesprite-uses-mobile-games-to-treat-chronic-stress-problems/" target="_blank"><img class="logopix img-responsive" src="./images/venturebeat.png" alt="venturebeat"/></a></div>
+    <div class="item"><a href="http://www.thelawofstartups.com/podcast/2015/7/30/episode-22-swatee-surve-ceo-and-founder-of-litesprite" target="_blank"><img class="logopix img-responsive" src="./images/lawofstartups.png" alt="The Law of Starups Podcast"/></a></div>
+    <div class="item"><a href="http://425business.com/calling-all-startups-its-time-to-acquire-customers/" target="_blank"><img class="logopix img-responsive" src="./images/425.png" alt="425 Business"/></a></div>
+    <div class="item"><a href="http://www.bizjournals.com/seattle/news/2015/03/20/founder-s-answer-to-tech-world-stress-play-a-game.html?page=all" target="_blank"><img class="logopix img-responsive" src="./images/psbj.png" alt="Puget Sound Business Journal"/></a></div>
+    <div class="item"><a href="http://www.seattletimes.com/business/technology/new-local-hub-examines-health-care-innovation/" target="_blank"><img class="logopix img-responsive" src="./images/seattletimes.png" alt="The Seattle Times"/></div>
+    <div class="item"><a href="http://venturebeat.com/2015/09/16/litesprite-uses-mobile-games-to-treat-chronic-stress-problems/" target="_blank"><img class="logopix img-responsive" src="./images/venturebeat.png" alt="venturebeat"/></div>
+    <div class="item"><a href="http://www.thelawofstartups.com/podcast/2015/7/30/episode-22-swatee-surve-ceo-and-founder-of-litesprite" target="_blank"><img class="logopix img-responsive" src="./images/lawofstartups.png" alt="The Law of Starups Podcast"/></div>
+
+
+      <div class="item"><a href="http://www.ibtimes.com/tinnitus-help-3d-printed-tissue-anxiety-relief-highlight-digital-health-startups-sxsw-1850358" target="_blank"><img class="logopix img-responsive" src="./images/ibt.png" alt="International Business Times"/></a></div>
+      <div class="item"><a href="http://venturebeat.com/2015/03/07/health-app-developers-face-their-biggest-obstacle-privacy-regulations/" target="_blank"><img class="logopix img-responsive" src="./images/venturebeat.png" alt="venturebeat"/></a></div>
+      <div class="item"><a href="http://www.seattlemet.com/news-and-profiles/articles/video-game-therapy-january-2015" target="_blank"><img class="logopix img-responsive" src="./images/seamet.png" alt="Seattle Met Magazine"/></a></div>
+      <div class="item"><a href="http://issuu.com/casualconnect/docs/casualconnectwinter2014" target="_blank"><img class="logopix img-responsive" src="./images/cc.png" alt="Casual Connect December 2014"/></a></div>
+      <div class="item"><a href="http://kuow.org/post/feeling-blue-play-game-socks-fox" target="_blank"><img class="logopix img-responsive" src="./images/kuow.png" alt="KUOW 94.9"/></a></div>
+
+
+      <div class="item"><a href="http://seriousgamesmarket.blogspot.com/2014/04/serious-games-as-alternative-to.html" target="_blank"><img class="logopix img-responsive" src="./images/sgm.png" alt="Serious Games"/></a></div>
+      <div class="item"><a href="http://www.king5.com/story/tech/2014/08/05/13398102" target="_blank"><img class="logopix img-responsive" src="./images/king5.png" alt="King-5 News"/></a></div>
+      <div class="item"><a href="http://www.geekwire.com/2014/northwest-social-venture-fund" target="_blank"><img class="logopix img-responsive" src="./images/geekwire.png" alt="geekwire"/></a></div>
+      <div class="item"><a href="http://www.bizjournals.com/portland/blog/sbo/2014/02/instove-lite-sprite-win-fast-pitch.html" target="_blank"><img class="logopix img-responsive" src="./images/bpj.png" alt="geekwire"/></a></div>
+      <div class="item"><a href="http://www.sustainablebusinessoregon.com/articles/2014/02/fast-pitch-portland-meet-9-startups.html" target="_blank"><img class="logopix img-responsive" src="./images/fastpitch.png" alt="Portland Fast Pitch"/></a></div>
+
+
+  </div>
+
+
+  </div>
+
+
   <div class="jumbotron2">
 
     <!--<video autoplay muted loop id="video-bg">
@@ -207,14 +243,6 @@ $body = <<<EOD
       </div>
       <div class="col-md-8"><
 
-<div id="owl-demo">
-
-
-<div class="item"><a href="http://www.seattletimes.com/business/technology/new-local-hub-examines-health-care-innovation/" target="_blank"><img class="logopix img-responsive" src="./images/seattletimes.png" alt="The Seattle Times"/></div>
-
-<div class="item"><a href="http://venturebeat.com/2015/09/16/litesprite-uses-mobile-games-to-treat-chronic-stress-problems/" target="_blank"><img class="logopix img-responsive" src="./images/venturebeat.png" alt="venturebeat"/></div>
-
-      </div>
     </div>
   </div>
   <script type='text/javascript' src="./js/init.js"></script>
